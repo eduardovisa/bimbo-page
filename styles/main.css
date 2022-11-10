@@ -9,7 +9,9 @@ body {
   margin: 0;
   padding-left: 2%; 
   padding-right: 2%; 
-  background-color: #f2f6f7;
+  background-image: url('../img/Fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #wrapper {
@@ -68,10 +70,24 @@ body {
   
 .button-color-blue {
   background-color: #02038f;
+  cursor: pointer;
+}
+
+.button-color-blue:hover {
+  background-color: #02028fd6;
+}
+
+.btn:hover {
+  color: white;
 }
 
 .button-color-red {
   background-color: #f80007;
+  cursor: pointer;
+}
+
+.button-color-red:hover {
+  background-color: #f80008c8;
 }
 
 .btn {
